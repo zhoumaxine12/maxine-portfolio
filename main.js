@@ -5,13 +5,13 @@ const revealItems = [...document.querySelectorAll(".reveal")];
 const backTop = document.querySelector(".back-top");
 
 const workImages = {
-  home: "./photo/jobflow-board-homepage.png",
-  board: "./photo/jobflow-board-boardpage.png",
-  focus: "./photo/jobflow-board-focuspage.png",
-  archive: "./photo/jobflow-board-archivepage.png"
+  home: "./assets/photo/jobflow-board-homepage.png",
+  board: "./assets/photo/jobflow-board-boardpage.png",
+  focus: "./assets/photo/jobflow-board-focuspage.png",
+  archive: "./assets/photo/jobflow-board-archivepage.png"
 };
 
-const fallbackWorkImage = "./photo/jobflow-board-boardpage.png";
+const fallbackWorkImage = "./assets/photo/jobflow-board-boardpage.png";
 
 const experienceAssetPath = "./assets/experience/";
 

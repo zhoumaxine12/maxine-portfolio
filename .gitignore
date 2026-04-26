@@ -2,6 +2,16 @@ node_modules/
 dist/
 .vite-cache/
 .edge-profile/
+/public/
+/photo/
+/CV/
+/svg/
+/Blueprint/
+/package.json
+/package-lock.json
+/vite.config.js
+/assets/coding-works
+/*.pdf
 
 *.log
 .DS_Store
