@@ -154,12 +154,11 @@
           <div>
             <p class="eyebrow">EXPERIENCE</p>
             <h2>代表经历</h2>
-            <p>策略判断、业务分析与推进落地。</p>
           </div>
           <div class="experience-strip" aria-label="经历概览">
             <div class="strip-item">
               <img src="./assets/experience/icon-briefcase-outline.svg" alt="" />
-              <strong>4+</strong>
+              <strong>5+</strong>
               <span>段重要经历</span>
             </div>
             <div class="strip-item">
@@ -175,8 +174,39 @@
           </div>
         </div>
 
-        <div class="experience-grid" aria-label="代表经历列表">
-          <article class="experience-card reveal" tabindex="0" role="button" data-exp="bytedance">
+        <div class="experience-split">
+          <div class="experience-grid experience-split__list" aria-label="代表经历列表">
+          <article class="experience-card reveal" tabindex="0" role="button" data-exp="xiaohongshu">
+            <div class="experience-card__top">
+              <img class="experience-logo" src="./assets/experience/logo-xiaohongshu-small.svg" alt="小红书" />
+              <span class="time-label">2026.05 – 至今</span>
+            </div>
+            <h3>小红书</h3>
+            <p class="job-title">行业运营</p>
+            <p class="card-summary">AI 自动化投流 + 头部商家账号矩阵 + 爆款内容体系，带动商家规模 +360%、日均曝光 400w。</p>
+            <div class="experience-tags">
+              <span>AI 自动化</span>
+              <span>账号矩阵</span>
+              <span>内容策略</span>
+            </div>
+            <span class="experience-link">查看详情 <img src="./assets/experience/icon-arrow-right-blue.svg" alt="" /></span>
+          </article>
+<article class="experience-card reveal" tabindex="0" role="button" data-exp="iqiyi">
+            <div class="experience-card__top">
+              <img class="experience-logo" src="./assets/experience/logo-iqiyi-small.svg" alt="爱奇艺" />
+              <span class="time-label">2026.02 – 2026.05</span>
+            </div>
+            <h3>爱奇艺</h3>
+            <p class="job-title">产品经理</p>
+            <p class="card-summary">围绕综艺内容承接、新用户转化与 AI 提效，优化内容链路与运营效率。</p>
+            <div class="experience-tags">
+              <span>内容承接</span>
+              <span>转化优化</span>
+              <span>AI 提效</span>
+            </div>
+            <span class="experience-link">查看详情 <img src="./assets/experience/icon-arrow-right-blue.svg" alt="" /></span>
+          </article>
+<article class="experience-card reveal" tabindex="0" role="button" data-exp="bytedance">
             <div class="experience-card__top">
               <img class="experience-logo" src="./assets/experience/logo-bytedance-small.svg" alt="字节跳动" />
               <span class="time-label">2025.06 – 2025.11</span>
@@ -191,8 +221,7 @@
             </div>
             <span class="experience-link">查看详情 <img src="./assets/experience/icon-arrow-right-blue.svg" alt="" /></span>
           </article>
-
-          <article class="experience-card reveal" tabindex="0" role="button" data-exp="vipshop">
+<article class="experience-card reveal" tabindex="0" role="button" data-exp="vipshop">
             <div class="experience-card__top">
               <img class="experience-logo" src="./assets/experience/logo-vipshop-small.svg" alt="唯品会" />
               <span class="time-label">2024.11 – 2025.06</span>
@@ -207,24 +236,7 @@
             </div>
             <span class="experience-link">查看详情 <img src="./assets/experience/icon-arrow-right-blue.svg" alt="" /></span>
           </article>
-
-          <article class="experience-card reveal" tabindex="0" role="button" data-exp="iqiyi">
-            <div class="experience-card__top">
-              <img class="experience-logo" src="./assets/experience/logo-iqiyi-small.svg" alt="爱奇艺" />
-              <span class="time-label">2026.01 – 至今</span>
-            </div>
-            <h3>爱奇艺</h3>
-            <p class="job-title">产品运营</p>
-            <p class="card-summary">围绕综艺内容承接、新用户转化与 AI 提效，优化内容链路与运营效率。</p>
-            <div class="experience-tags">
-              <span>内容承接</span>
-              <span>转化优化</span>
-              <span>AI 提效</span>
-            </div>
-            <span class="experience-link">查看详情 <img src="./assets/experience/icon-arrow-right-blue.svg" alt="" /></span>
-          </article>
-
-          <article class="experience-card reveal" tabindex="0" role="button" data-exp="deloitte">
+<article class="experience-card reveal" tabindex="0" role="button" data-exp="deloitte">
             <div class="experience-card__top">
               <img class="experience-logo" src="./assets/experience/logo-deloitte-small.svg" alt="德勤" />
               <span class="time-label">2023.07 – 2023.09</span>
@@ -239,9 +251,9 @@
             </div>
             <span class="experience-link">查看详情 <img src="./assets/experience/icon-arrow-right-blue.svg" alt="" /></span>
           </article>
-        </div>
+          </div>
 
-        <article class="experience-detail reveal" id="experience-detail" data-detail-panel hidden aria-live="polite">
+          <article class="experience-detail experience-split__panel reveal" id="experience-detail" data-detail-panel aria-live="polite">
           <div class="experience-detail__bar">
             <span></span>
             <span></span>
@@ -253,6 +265,7 @@
           </div>
           <div class="experience-detail__body" id="experience-detail-body"></div>
         </article>
+        </div>
       </section>
 
       <section class="section coding" id="coding-works" data-section>

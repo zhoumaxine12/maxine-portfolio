@@ -17,6 +17,32 @@ const experienceAssetPath = "./assets/experience/";
 
 const experiences = [
   {
+    id: "xiaohongshu",
+    company: "小红书",
+    brand: "XiaoHongShu",
+    logo: "logo-xiaohongshu-small.svg",
+    department: "交易部",
+    role: "行业运营",
+    time: "2026.05 – 至今",
+    location: "上海",
+    cardSummary: "AI 自动化投流 + 头部商家账号矩阵 + 爆款内容体系，带动商家规模 +360%、日均曝光 400w。",
+    tags: ["AI 自动化", "账号矩阵", "内容策略"],
+    quote: "用 AI 把重复流程标准化，用数据与内容策略驱动头部商家持续增长。",
+    responsibilities: [
+      "搭建「AI 投流 skill」：把手扶投流拆成\"抓取→筛选→追投→复盘\"标准链路，用 AI agent 落地为自动化任务，日均 2h → 全自动。",
+      "账号矩阵：为头部商家设计「主号转化 + 人设拉新 + 垂类起量」方案。",
+      "搭建「爆款笔记分析 skill」：AI 拆解 1K+ 商品笔记的 7 维内容特征，自动生成周报，赋能 500+ 商家。"
+    ],
+    achievements: [
+      { value: "20+", label: "头部商家账号矩阵" },
+      { value: "+25%", label: "头部商家 GMV 同比" },
+      { value: "400w", label: "AI 投流日均曝光" },
+      { value: "2h→0", label: "日常投流人工耗时" }
+    ],
+    skillTags: ["AI 自动化", "商家运营", "账号矩阵", "内容策略", "数据分析", "流程标准化"],
+    tools: ["Excel", "SQL", "Python", "ChatGPT / Codex", "Claude"]
+  },
+  {
     id: "bytedance",
     company: "字节跳动",
     brand: "抖音电商",
@@ -29,10 +55,9 @@ const experiences = [
     tags: ["达人增长", "经营分析", "策略运营"],
     quote: "以经营分析为基础，围绕达人增长、货盘提效与资源配置推进业务增长。",
     responsibilities: [
-      "负责 480+ 头部达人的运营管理，围绕经营表现制定增长策略。",
-      "建立“供给 + 货盘 + 用户画像 + 流量 + 内容”五维分析模型，定位增长机会点。",
-      "基于营销节点定制货盘调优方案，并协同行业撮合品牌与达人合作。",
-      "根据目标进行作者策略分层，设计任务赛与激励机制，批量牵引重点作者达成业务目标。"
+      "运营 480+ 头部达人，围绕经营表现制定增长策略。",
+      "建立「供给+货盘+画像+流量+内容」五维分析模型，定位机会点。",
+      "分层设计任务赛与激励机制，牵引重点作者达成业务目标。"
     ],
     achievements: [
       { value: "480+", label: "头部达人运营" },
@@ -63,10 +88,9 @@ const experiences = [
         time: "2025.01 – 2025.06",
         summary: "基于逆向物流全链路数据，识别异常场景并推动流程优化与损失控制。",
         responsibilities: [
-          "基于客退逆向物流数据，从客服、OQC、IQC、物流、供应商及客户风险分等维度开展分析。",
-          "完成 1000+ 异常工单溯源，结合用户画像、对话记录与监控视频定位高频场景。",
-          "基于分析与抽样结果测算优化目标，设计流程改进方案，并联动相关部门推进落地。",
-          "参与 20+ 项流程优化课题，产出 50+ 改进方案，支持逆向链路减少资产损失。"
+          "拆解客退逆向物流数据，从客服/QC/物流/供应商多维分析异常。",
+          "溯源 1000+ 异常工单，结合画像与监控定位高频损失场景。",
+          "推进 20+ 流程优化课题，产出 50+ 改进方案，减少资产损失。"
         ],
         achievements: [
           { value: "1000+", label: "异常工单分析" },
@@ -81,10 +105,9 @@ const experiences = [
         time: "2024.11 – 2025.01",
         summary: "围绕采购申请、订单利润与流程瓶颈进行量化分析，支持采买决策与流程提效。",
         responsibilities: [
-          "协助完成 10+ 份订单、600+ SKU 的成本费用、利润率、GMV 等关键指标测算。",
-          "基于 BFPQ 模型完成 120+ 项采购申请量化评分，支持亿级采购决策。",
-          "梳理 80+ 单热度订单历史采购跟进信息，识别采购流程瓶颈与风险。",
-          "结合订单数据与流程信息提出优化方向，预计将采购流程压缩 37%。"
+          "测算 10+ 订单、600+ SKU 的成本、利润与 GMV 指标。",
+          "基于 BFPQ 模型评分 120+ 采购申请，支持亿级采购决策。",
+          "梳理 80+ 热度订单跟进信息，提出流程优化预计压缩 37%。"
         ],
         achievements: [
           { value: "600+", label: "SKU 指标测算" },
@@ -103,17 +126,16 @@ const experiences = [
     brand: "iQIYI",
     logo: "logo-iqiyi-small.svg",
     department: "产品技术部",
-    role: "产品运营",
-    time: "2026.01 – 至今",
+    role: "产品经理",
+    time: "2026.02 – 2026.05",
     location: "北京",
     cardSummary: "围绕综艺内容承接、新用户转化与 AI 提效，优化内容链路与运营效率。",
     tags: ["内容承接", "转化优化", "AI 提效"],
     quote: "用数据与产品思维，推动内容承接与用户价值的持续增长。",
     responsibilities: [
-      "优化综艺内容承接链路，围绕正片、衍生、看点与周边内容设计更清晰的消费路径。",
-      "走查新安装用户首轮消费链路，定位弹窗密集、营销感强、播放被打断等高流失问题。",
-      "推动新用户分层触达与弹窗降扰策略落地，提升开播转化与留存表现。",
-      "利用 AI 生成交互 Demo，并结合 Codex 开发自动化工具，提升 SEO 运营与跨团队协同效率。"
+      "优化综艺内容承接链路，设计正片/衍生/看点更清晰的消费路径。",
+      "走查新用户首轮消费链路，定位弹窗密集、播放打断等流失点。",
+      "利用 AI Demo + Codex 自动化工具，提升 SEO 运营与协同效率。"
     ],
     achievements: [
       { value: "+10%", label: "人均播放时长" },
@@ -138,8 +160,7 @@ const experiences = [
     quote: "参与 ESG 咨询与研究支持，在真实项目中训练结构化分析与商业表达能力。",
     responsibilities: [
       "参与多行业上市企业 ESG 提升与转型方案研究。",
-      "支持月报、BD 材料与评级回应材料撰写。",
-      "参与 MSCI、DJSI 等 ESG 评级提升与回应支持。",
+      "支持月报、BD 材料与 MSCI/DJSI 评级回应撰写。",
       "参与气候风险、碳资产与 ESG 差距分析等研究工作。"
     ],
     achievements: [
@@ -302,6 +323,16 @@ function setupExperiencePanel() {
     return items.map((item) => `<span>${item}</span>`).join("");
   }
 
+  function renderToolsAsTags(items) {
+    // 与 Skill Tags 一起横排，样式区分用 .tag--tool
+    return items
+      .map((item) => {
+        const label = item === "AI 工具" ? "ChatGPT / Codex" : item;
+        return `<span class="tag--tool">${label}</span>`;
+      })
+      .join("");
+  }
+
   function renderTools(items) {
     const toolMap = {
       Excel: "tool-excel.svg",
@@ -414,49 +445,22 @@ function setupExperiencePanel() {
   }
 
   function updatePanel(detail) {
-    body.innerHTML = `
-      <aside class="detail-profile">
-        <img class="detail-pin" src="${experienceAssetPath}icon-panel-pin.svg" alt="" />
-        <img class="detail-logo" src="${experienceAssetPath}${detail.logo}" alt="${detail.company}" />
-        <p class="detail-brand">${detail.brand}</p>
-        <h3>${detail.company}</h3>
-        <dl class="detail-identity">
-          <div>
-            <dt>部门</dt>
-            <dd>${detail.department || detail.brand}</dd>
-          </div>
-          <div>
-            <dt>岗位</dt>
-            <dd>${detail.role}</dd>
-          </div>
-        </dl>
-        <div class="detail-meta">
-          <span><img src="${experienceAssetPath}icon-calendar-line.svg" alt="" />${detail.time}</span>
-          ${
-            detail.location
-              ? `<span><img src="${experienceAssetPath}icon-location-line.svg" alt="" />${detail.location}</span>`
-              : ""
-          }
-        </div>
-        <figure class="detail-quote">
-          <img class="quote-corner quote-corner--tl" src="${experienceAssetPath}quote-box-corner-tl.svg" alt="" />
-          <img class="quote-corner quote-corner--br" src="${experienceAssetPath}quote-box-corner-br.svg" alt="" />
-          <img class="quote-mark quote-mark--left" src="${experienceAssetPath}quote-mark-left.svg" alt="" />
-          <blockquote>${detail.quote}</blockquote>
-          <img class="quote-mark quote-mark--right" src="${experienceAssetPath}quote-mark-right.svg" alt="" />
-        </figure>
-        ${renderGroupedTimeline(detail)}
-      </aside>
+    // 更新顶部标题栏：公司 · 岗位 · 时间
+    const barTitle = panel.querySelector(".experience-detail__bar strong");
+    if (barTitle) {
+      barTitle.textContent = `${detail.company} · ${detail.role} · ${detail.time}`;
+    }
 
+    body.innerHTML = `
       <section class="detail-core">
         ${detail.isGrouped ? renderGroupedDetail(detail) : renderNormalDetail(detail)}
       </section>
 
-      <aside class="detail-skills">
-        ${renderSectionTitle("Skill Tags", "能力标签")}
-        <div class="detail-tags">${renderTags(detail.skillTags)}</div>
-        ${renderSectionTitle("Tools", "使用工具")}
-        <div class="detail-tools">${renderTools(detail.tools)}</div>
+      <aside class="detail-skills detail-skills--merged">
+        <div class="detail-tags detail-tags--merged">
+          ${renderTags(detail.skillTags)}
+          ${renderToolsAsTags(detail.tools)}
+        </div>
       </aside>
     `;
   }
@@ -513,7 +517,7 @@ function setupExperiencePanel() {
       panel.hidden = false;
       setCardState(id);
       console.log("[experience] card clicked", id);
-      openPanel(id, true);
+      openPanel(id, false);
     });
 
     card.addEventListener("keydown", (event) => {
@@ -523,11 +527,17 @@ function setupExperiencePanel() {
       panel.hidden = false;
       setCardState(id);
       console.log("[experience] card clicked", id);
-      openPanel(id, true);
+      openPanel(id, false);
     });
   });
 
   closeButton?.addEventListener("click", closePanel);
+
+  // Master-Detail: 默认打开第一张卡片（小红书），让右侧详情始终可见
+  const firstCard = cards[0];
+  if (firstCard) {
+    openPanel(firstCard.dataset.exp, false);
+  }
 }
 
 function setupWorkTabs() {
